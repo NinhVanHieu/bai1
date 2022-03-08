@@ -1,0 +1,53 @@
+*{
+    font-family: "Tahoma";
+    font-size: 12px;
+}
+.menu{
+   
+    background: rgb(167,14,26);
+    padding: 10px;
+}
+.menu a {
+    padding-right: 23px;
+    color: white;
+    padding: 10px;
+
+}
+.menu a:hover {
+    background: rgb(233, 10, 28);
+    color: white;
+    text-decoration: none;
+}
+.menu.menuden{
+    position: fixed;
+    background: rgb(34,34,34);
+    top:0px;
+    width: 100%;
+    z-index:2;
+}
+.menu.menuden a:hover{
+    background: rgb(68, 66, 66);
+}
+.chungtoi.vang {
+    position: fixed;
+    top: 43px;
+}
+.s3{
+    opacity: 0;
+}
+.s3.hi{
+    animation:chay 1s ease forwards;
+}
+@-webkit-keyframes chay{
+    from {transform: translateY(300px); opacity: 0;}
+    to {transform: translateY(0px); opacity: 1;}
+}
+section{
+    padding-top: 20px;
+}
+.col-md-8.content {
+    /* margin-left: 1px; */
+    padding-left: 74px;
+    top: -8px;
+    align-content: center;
+}
